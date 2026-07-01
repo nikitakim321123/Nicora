@@ -298,8 +298,9 @@ img, svg { display: block; max-width: 100%; }
 .product-spec-label { font: 400 9px/1 'Inter', sans-serif; color: #AAAAAA; margin-top: 5px; text-transform: uppercase; letter-spacing: 0.15em; }
 .product-footer { display: flex; align-items: center; justify-content: space-between; padding-top: 18px; border-top: 1px solid #F5F5F5; margin-top: auto; gap: 12px; flex-wrap: wrap; }
 .product-footer--soon { border-color: #161616; }
+.product-footer--card { padding-left: 32px; padding-right: 32px; padding-bottom: 32px; }
 .product-card-media { display: contents; }
-.product-footer-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.product-footer-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
 
 /* ========== PRODUCT DETAIL ========== */
 .product-hero { display: flex; min-height: calc(100vh - var(--nav-h)); }
