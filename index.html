@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NICORA — Умная бытовая техника</title>
+<meta name="description" content="Nicora — умные влажно-сухие пылесосы. Моет, стерилизует, думает. Казахстанский сервис, гарантия на всё.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+<!-- ═══════════════ NAV ═══════════════ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo" data-link>NICORA</a>
+    <div class="nav-links">
+      <a href="/" class="nav-link" data-link data-page-link="home">Главная</a>
+      <a href="/models" class="nav-link" data-link data-page-link="models">Модели</a>
+      <a href="/about" class="nav-link" data-link data-page-link="about">О бренде</a>
+      <a href="/contacts" class="nav-link" data-link data-page-link="contacts">Контакты</a>
+      <a href="/models" class="btn btn-dark nav-cta" data-link>Купить →</a>
+    </div>
+    <button class="nav-burger" id="navBurger" aria-label="Открыть меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="/" class="mobile-menu-link" data-link data-page-link="home">Главная</a>
+  <a href="/models" class="mobile-menu-link" data-link data-page-link="models">Модели</a>
+  <a href="/about" class="mobile-menu-link" data-link data-page-link="about">О бренде</a>
+  <a href="/contacts" class="mobile-menu-link" data-link data-page-link="contacts">Контакты</a>
+  <a href="/models" class="btn btn-dark mobile-menu-cta" data-link>Купить →</a>
+</div>
+
+<main class="app">
+
+  <!-- ═══════════════ HOME ═══════════════ -->
+  <div data-page="home" class="page">
+
+    <section class="splash">
+      <span class="splash-word">NICORA</span>
+      <span class="splash-tagline">Чистота в одно касание</span>
+    </section>
+
+    <section class="typewriter-section" id="typewriterSection">
+      <div class="typewriter-wrap">
+        <span class="typewriter-text" id="typewriterText"></span><span class="typewriter-cursor" id="typewriterCursor">|</span>
+      </div>
+    </section>
+
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <span class="eyebrow eyebrow-dark">NICORA · SMART HOME APPLIANCES · 2026</span>
+          <h1 class="hero-title">Моет<br>Стерилизует<br>Думает</h1>
+          <div class="hero-model-label">Nicora M9</div>
+          <p class="hero-desc">Умный влажно-сухой пылесос. Очищает воду, сушит щётку — автоматически.</p>
+          <div class="hero-actions">
+            <a href="/models" class="btn btn-light" data-link>Смотреть каталог</a>
+            <a href="/about" class="btn btn-outline-light" data-link>О бренде →</a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <div class="hero-stat-num">18 кПа</div>
+              <div class="hero-stat-label">Всасывание</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-num">40 мин</div>
+              <div class="hero-stat-label">Автономность</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-num">80 м²</div>
+              <div class="hero-stat-label">Площадь</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image">
+          <svg width="64" height="78" viewBox="0 0 52 64" fill="none" class="n-mark">
+            <rect x="0" y="0" width="8.5" height="64" fill="currentColor"></rect>
+            <rect x="43.5" y="0" width="8.5" height="64" fill="currentColor"></rect>
+            <polygon points="8.5,0 19.5,0 43.5,64 32.5,64" fill="currentColor"></polygon>
+          </svg>
+          <span class="placeholder-label">Product photography</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="features-inner">
+        <div class="section-heading">
+          <span class="eyebrow eyebrow-light">Технологии</span>
+          <h2 class="section-title">Три причины выбрать Никора</h2>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card feature-card--light">
+            <div class="feature-icon feature-icon--light">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 .49-4.95L1 10"></path></svg>
+            </div>
+            <div class="feature-copy">
+              <h3 class="feature-title feature-title--dark">Умная самоочистка</h3>
+              <p class="feature-text feature-text--dark">После каждой уборки машина промывает щётку, осушивает её горячим воздухом — без вашего участия.</p>
+            </div>
+            <div class="feature-foot feature-foot--light"><span class="mono-tag mono-tag--light">AUTO CLEAN · 3 мин</span></div>
+          </div>
+          <div class="feature-card feature-card--dark">
+            <div class="feature-icon feature-icon--dark">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            </div>
+            <div class="feature-copy">
+              <h3 class="feature-title feature-title--light">18 кПа всасывания</h3>
+              <p class="feature-text feature-text--light">Индустриальная мощность. Убирает всё — от пыли до кофейных разводов на любом покрытии.</p>
+            </div>
+            <div class="feature-foot feature-foot--dark"><span class="mono-tag mono-tag--dark">MAX SUCTION · 22 kPa</span></div>
+          </div>
+          <div class="feature-card feature-card--light">
+            <div class="feature-icon feature-icon--light">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="6" width="18" height="12" rx="2" ry="2"></rect><line x1="23" y1="13" x2="23" y2="11"></line></svg>
+            </div>
+            <div class="feature-copy">
+              <h3 class="feature-title feature-title--dark">80 м² на заряде</h3>
+              <p class="feature-text feature-text--dark">Трёхкомнатная квартира и ещё останется. 40 минут автономной работы на максимальной мощности.</p>
+            </div>
+            <div class="feature-foot feature-foot--light"><span class="mono-tag mono-tag--light">BATTERY · 55 мин</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bestseller">
+      <div class="bestseller-inner">
+        <div class="bestseller-image">
+          <svg width="52" height="64" viewBox="0 0 52 64" fill="none" class="n-mark n-mark--muted">
+            <rect x="0" y="0" width="8.5" height="64" fill="currentColor"></rect>
+            <rect x="43.5" y="0" width="8.5" height="64" fill="currentColor"></rect>
+            <polygon points="8.5,0 19.5,0 43.5,64 32.5,64" fill="currentColor"></polygon>
+          </svg>
+          <span class="placeholder-label placeholder-label--muted">Product image</span>
+        </div>
+        <div class="bestseller-info">
+          <div>
+            <span class="badge-pill">БЕСТСЕЛЛЕР 2026</span>
+            <h2 class="bestseller-name">NICORA M9</h2>
+            <div class="bestseller-sub">Умный влажно-сухой пылесос</div>
+          </div>
+          <div class="bestseller-specs">
+            <div class="bestseller-spec"><div class="bestseller-spec-num">18</div><div class="bestseller-spec-label">кПа</div></div>
+            <div class="bestseller-spec"><div class="bestseller-spec-num">40</div><div class="bestseller-spec-label">мин</div></div>
+            <div class="bestseller-spec"><div class="bestseller-spec-num">80</div><div class="bestseller-spec-label">м²</div></div>
+          </div>
+          <p class="bestseller-desc">Флагман линейки. Убирает 80 м² на одном заряде, автоматически промывает щётку и сообщает, когда уборка завершена.</p>
+          <div class="bestseller-buy">
+            <span class="price price--lg">169 500 ₸</span>
+            <a href="/models/nicora-m9" class="btn btn-dark" data-link>Подробнее →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust">
+      <div class="trust-inner">
+        <div class="trust-item">
+          <div class="trust-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0A0A0A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></div>
+          <div>
+            <h3 class="trust-title">Гарантия</h3>
+            <p class="trust-text">Заводская гарантия на все компоненты. Без скрытых условий и доп. расходов.</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0A0A0A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg></div>
+          <div>
+            <h3 class="trust-title">Свои сервисные центры</h3>
+            <p class="trust-text">Авторизованные центры в Караганде, Астане и Алматы и других городах Казахстана. Ремонт за 2–3 дня.</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0A0A0A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg></div>
+          <div>
+            <h3 class="trust-title">Бесплатная доставка</h3>
+            <p class="trust-text">По всему Казахстану за 1–3 рабочих дня.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- ═══════════════ MODELS / CATALOG ═══════════════ -->
+  <div data-page="models" class="page">
+
+    <section class="page-header page-header--dark">
+      <div class="page-header-inner">
+        <div>
+          <span class="eyebrow eyebrow-dark">Никора · Модели 2025</span>
+          <h1 class="page-title">Все модели</h1>
+        </div>
+        <span class="page-header-count">2 модели</span>
+      </div>
+    </section>
+
+    <section class="catalog">
+      <div class="catalog-inner">
+        <div class="catalog-grid">
+
+          <a href="/models/nicora-m9" class="product-card" data-link>
+            <div class="product-image">
+              <span class="product-badge">В наличии</span>
+              <svg width="40" height="49" viewBox="0 0 52 64" fill="none" class="n-mark n-mark--muted">
+                <rect x="0" y="0" width="8.5" height="64" fill="currentColor"></rect>
+                <rect x="43.5" y="0" width="8.5" height="64" fill="currentColor"></rect>
+                <polygon points="8.5,0 19.5,0 43.5,64 32.5,64" fill="currentColor"></polygon>
+              </svg>
+              <span class="placeholder-label placeholder-label--muted">Product image</span>
+            </div>
+            <div class="product-body">
+              <div>
+                <div class="product-name">Nicora M9</div>
+                <div class="product-sub">Умный влажно-сухой пылесос</div>
+              </div>
+              <div class="product-specs">
+                <div class="product-spec"><div class="product-spec-num">18</div><div class="product-spec-label">кПа</div></div>
+                <div class="product-spec"><div class="product-spec-num">40</div><div class="product-spec-label">мин</div></div>
+                <div class="product-spec"><div class="product-spec-num">80</div><div class="product-spec-label">м²</div></div>
+              </div>
+              <div class="product-footer">
+                <span class="price">169 500</span>
+                <span class="btn btn-dark btn-sm">Подробнее →</span>
+              </div>
+            </div>
+          </a>
+
+          <div class="product-card product-card--soon">
+            <div class="product-image product-image--soon">
+              <span class="product-badge product-badge--soon">СКОРО</span>
+              <svg width="40" height="49" viewBox="0 0 52 64" fill="none" class="n-mark n-mark--soon">
+                <rect x="0" y="0" width="8.5" height="64" fill="currentColor"></rect>
+                <rect x="43.5" y="0" width="8.5" height="64" fill="currentColor"></rect>
+                <polygon points="8.5,0 19.5,0 43.5,64 32.5,64" fill="currentColor"></polygon>
+              </svg>
+            </div>
+            <div class="product-body">
+              <div>
+                <div class="product-name product-name--light">Nicora ULTRA</div>
+                <div class="product-sub product-sub--soon">Следующий уровень. Появится в сентябре 2026</div>
+              </div>
+              <div class="product-footer product-footer--soon">
+                <span class="price-soon">Цена — скоро</span>
+                <span class="btn btn-outline-soon">Уведомить меня</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- ═══════════════ PRODUCT ═══════════════ -->
+  <div data-page="product" class="page">
+
+    <section class="product-hero">
+      <div class="product-gallery">
+        <div class="product-photo">
+          <svg width="64" height="78" viewBox="0 0 52 64" fill="none" class="n-mark n-mark--faint">
+            <rect x="0" y="0" width="8.5" height="64" fill="currentColor"></rect>
+            <rect x="43.5" y="0" width="8.5" height="64" fill="currentColor"></rect>
+            <polygon points="8.5,0 19.5,0 43.5,64 32.5,64" fill="currentColor"></polygon>
+          </svg>
+          <span class="placeholder-label placeholder-label--faint">Product photography</span>
+        </div>
+        <div class="breadcrumb">
+          <a href="/models" class="breadcrumb-link" data-link>Модели</a>
+          <span class="breadcrumb-sep">—</span>
+          <span class="breadcrumb-current">Nicora M9</span>
+        </div>
+      </div>
+      <div class="product-info">
+        <div>
+          <span class="badge-pill">Бестселлер</span>
+          <h1 class="product-name-lg">Nicora M9</h1>
+          <div class="product-sub-lg">Умный влажно-сухой пылесос</div>
+        </div>
+        <div class="spec-table">
+          <div class="spec-row"><span class="spec-label">Мощность всасывания</span><span class="spec-value">18 кПа</span></div>
+          <div class="spec-row"><span class="spec-label">Время работы</span><span class="spec-value">40 мин</span></div>
+          <div class="spec-row"><span class="spec-label">Площадь уборки</span><span class="spec-value">80 м²</span></div>
+          <div class="spec-row"><span class="spec-label">Объём бака</span><span class="spec-value">850 мл</span></div>
+          <div class="spec-row spec-row--last"><span class="spec-label">Масса</span><span class="spec-value">4.2 кг</span></div>
+        </div>
+        <div class="rating-row">
+          <span class="stars">★★★★★</span>
+          <span class="rating-num">4.8</span>
+          <span class="rating-count">124 отзывов</span>
+        </div>
+        <div class="buy-block">
+          <div class="price price--xl">169 500 ₸</div>
+          <div class="buy-actions">
+            <button type="button" class="btn btn-dark buy-btn">В корзину</button>
+            <button type="button" class="btn btn-wish" aria-label="В избранное">♡</button>
+          </div>
+          <span class="buy-note">Бесплатная доставка · В наличии на складе</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="modes">
+      <div class="modes-inner">
+        <div class="section-heading">
+          <span class="eyebrow eyebrow-dark">Технология</span>
+          <h2 class="section-title section-title--light">Три режима уборки</h2>
+        </div>
+        <div class="modes-grid">
+          <div class="mode-card">
+            <span class="mode-num">01</span>
+            <div class="mode-copy">
+              <h3 class="mode-title">Сухая уборка</h3>
+              <p class="mode-text">Высокая тяга захватывает пыль, шерсть, крошки с любых покрытий. HEPA-фильтрация задерживает 99.97% частиц.</p>
+            </div>
+            <div class="mode-foot">
+              <span class="mode-detail">Всасывание: 18 кПа</span>
+              <span class="mode-detail">Фильтр: HEPA H13</span>
+            </div>
+          </div>
+          <div class="mode-card">
+            <span class="mode-num">02</span>
+            <div class="mode-copy">
+              <h3 class="mode-title">Влажная уборка</h3>
+              <p class="mode-text">Осциллирующая щётка совершает 400 движений в минуту. Равномерно наносит раствор и удаляет пятна с первого прохода.</p>
+            </div>
+            <div class="mode-foot">
+              <span class="mode-detail">Бак: 850 мл</span>
+              <span class="mode-detail">Движений: 400/мин</span>
+            </div>
+          </div>
+          <div class="mode-card">
+            <span class="mode-num">03</span>
+            <div class="mode-copy">
+              <h3 class="mode-title">Авто-очистка</h3>
+              <p class="mode-text">После уборки — горячая промывка щётки, осушение воздухом, UV-стерилизация бака. Три минуты — и снова готов.</p>
+            </div>
+            <div class="mode-foot">
+              <span class="mode-detail">Цикл: 3 мин</span>
+              <span class="mode-detail">Стерилизация: UV-C</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="reviews-inner">
+        <div class="reviews-heading">
+          <h2 class="reviews-title">Отзывы покупателей</h2>
+          <span class="reviews-summary">124 отзывов · 4.8/5</span>
+        </div>
+        <div class="reviews-grid">
+          <div class="review-card">
+            <div class="review-top">
+              <div>
+                <div class="review-author">Амир К.</div>
+                <div class="review-city">Караганда</div>
+              </div>
+              <span class="review-stars">★★★★★</span>
+            </div>
+            <p class="review-text">Отличный пылесос — тихо работает, мощно всасывает. Режим самоочистки — настоящее открытие.</p>
+          </div>
+          <div class="review-card">
+            <div class="review-top">
+              <div>
+                <div class="review-author">Дина С.</div>
+                <div class="review-city">Астана</div>
+              </div>
+              <span class="review-stars">★★★★★</span>
+            </div>
+            <p class="review-text">Квартира 90 м², заряда хватает на всё. Nicora — лучшее, что я покупала для дома за годы.</p>
+          </div>
+          <div class="review-card">
+            <div class="review-top">
+              <div>
+                <div class="review-author">Руслан Т.</div>
+                <div class="review-city">Караганда</div>
+              </div>
+              <span class="review-stars">★★★★☆</span>
+            </div>
+            <p class="review-text">Качество сборки хорошее, доставка по Караганде пришла за 1 день. Работает полгода без нареканий.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- ═══════════════ ABOUT ═══════════════ -->
+  <div data-page="about" class="page">
+
+    <section class="about-hero">
+      <div class="about-hero-inner">
+        <div class="about-hero-text">
+          <span class="eyebrow eyebrow-dark">О бренде</span>
+          <h1 class="about-title">Мы создали то, чего не хватало рынку</h1>
+        </div>
+        <p class="about-lead">Nicora появилась потому что мы не нашли пылесос который реально моет, а не размазывает грязь. Мы казахстанский бренд — сервис рядом, запчасти в наличии, поддержка на русском.</p>
+      </div>
+    </section>
+
+    <section class="about-manifesto">
+      <div class="about-manifesto-inner">
+        <h2 class="manifesto-text">Мы не делаем дешёвую технику. Мы делаем технику&nbsp;которая&nbsp;работает.</h2>
+      </div>
+    </section>
+
+    <section class="about-stats">
+      <div class="about-stats-inner">
+        <div class="stat-item">
+          <div class="stat-num">2</div>
+          <div class="stat-label">модели в линейке</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">1</div>
+          <div class="stat-label">год гарантии</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">40</div>
+          <div class="stat-label">городов · сервис по всему Казахстану</div>
+        </div>
+        <div class="stat-item stat-item--last">
+          <div class="stat-num">24/7</div>
+          <div class="stat-label">живая поддержка</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-trust">
+      <div class="about-trust-inner">
+        <span class="eyebrow eyebrow-faint">Почему Nicora</span>
+        <div class="about-trust-grid">
+          <div class="about-trust-item">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0A0A0A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+            <h3 class="about-trust-title">Казахстанский сервис</h3>
+            <p class="about-trust-text">Сервисные центры во всех городах Казахстана. Запчасти в наличии — не ждёте неделями.</p>
+          </div>
+          <div class="about-trust-item">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0A0A0A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><polyline points="9 12 11 14 15 10"></polyline></svg>
+            <h3 class="about-trust-title">Честная гарантия</h3>
+            <p class="about-trust-text">Мы уверены в технике. Поэтому даём 1 год гарантии — на всё.</p>
+          </div>
+          <div class="about-trust-item">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0A0A0A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"></path><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path></svg>
+            <h3 class="about-trust-title">Живая поддержка</h3>
+            <p class="about-trust-text">Звоните — отвечает человек. Консультации на казахском и русском языках. Не бот, не автоответчик, не три дня ожидания.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-cta">
+      <div class="about-cta-inner">
+        <h2 class="about-cta-title">Готовы попробовать?</h2>
+        <p class="about-cta-text">Nicora M9 уже в наличии. Бесплатная доставка по всему Казахстану.</p>
+        <div class="about-cta-actions">
+          <a href="/models" class="btn btn-light" data-link>Смотреть модели</a>
+          <a href="/contacts" class="btn btn-outline-light" data-link>Связаться →</a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- ═══════════════ CONTACTS ═══════════════ -->
+  <div data-page="contacts" class="page">
+
+    <section class="page-header page-header--dark">
+      <div class="page-header-inner page-header-inner--single">
+        <span class="eyebrow eyebrow-dark">Никора · Контакты</span>
+        <h1 class="page-title">Свяжитесь с нами</h1>
+      </div>
+    </section>
+
+    <section class="contacts">
+      <div class="contacts-inner">
+        <div class="contacts-info">
+          <div>
+            <span class="eyebrow eyebrow-faint">Головной офис</span>
+            <div class="info-list">
+              <div class="info-item">
+                <span class="info-label">Адрес</span>
+                <span class="info-value">ул. Бухар-Жырау 34, офис 201<br>Караганда, 100000</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Телефон</span>
+                <span class="info-value info-value--mono"><a href="tel:+77212500100" class="info-link">+7 (7212) 50-01-00</a></span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Email</span>
+                <span class="info-value"><a href="mailto:info@nicora.kz" class="info-link">info@nicora.kz</a></span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Часы работы</span>
+                <span class="info-value info-value--muted">Пн–Пт: 9:00 — 18:00<br>Сб: 10:00 — 15:00</span>
+              </div>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <div>
+            <span class="eyebrow eyebrow-faint">Сервисные центры</span>
+            <div class="service-list">
+              <div class="service-item">
+                <div class="service-city">Алматы</div>
+                <div class="service-address">пр. Достык 240, ТЦ «Мега Алматы», 2 этаж</div>
+              </div>
+              <div class="service-item">
+                <div class="service-city">Астана</div>
+                <div class="service-address">ул. Кабанбай батыра 58, ТЦ «Хан Шатыр»</div>
+              </div>
+              <div class="service-item">
+                <div class="service-city">Шымкент</div>
+                <div class="service-address">пр. Республики 12, ТЦ «Сити Молл»</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <div class="form-success" id="formSuccess" hidden>
+            <div class="form-success-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </div>
+            <div>
+              <h3 class="form-success-title">Сообщение отправлено</h3>
+              <p class="form-success-text">Мы свяжемся с вами в течение одного рабочего дня.</p>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-header">
+              <span class="eyebrow eyebrow-faint">Напишите нам</span>
+              <h2 class="form-title">Вопрос, заказ или<br>обратная связь</h2>
+            </div>
+            <input class="form-input" type="text" name="name" placeholder="Ваше имя" required>
+            <input class="form-input" type="tel" name="phone" placeholder="+7 (XXX) XXX-XX-XX" required>
+            <input class="form-input" type="email" name="email" placeholder="Email" required>
+            <textarea class="form-input form-textarea" name="message" rows="5" placeholder="Ваше сообщение"></textarea>
+            <button type="submit" class="btn btn-dark form-submit">Отправить →</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+</main>
+
+<!-- ═══════════════ FOOTER ═══════════════ -->
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <span class="footer-logo">NICORA</span>
+    <div class="footer-links">
+      <a href="/models" class="footer-link" data-link>Модели</a>
+      <a href="/about" class="footer-link" data-link>О бренде</a>
+      <a href="/contacts" class="footer-link" data-link>Контакты</a>
+    </div>
+    <span class="footer-copy">© 2026 NICORA. Все права защищены.</span>
+  </div>
+</footer>
+
+<script src="/js/app.js"></script>
+</body>
+</html>
