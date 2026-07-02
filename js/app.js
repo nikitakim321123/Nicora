@@ -137,6 +137,24 @@
   if (contactForm && formSuccess) {
     contactForm.addEventListener('submit', function (e) {
       e.preventDefault();
+
+      var data = new FormData(contactForm);
+      var name = (data.get('name') || '').toString().trim();
+      var phone = (data.get('phone') || '').toString().trim();
+      var city = (data.get('city') || '').toString().trim();
+      var message = (data.get('message') || '').toString().trim();
+
+      var lines = [
+        'Заявка с сайта NICORA',
+        'Имя: ' + name,
+        'Телефон: ' + phone,
+        'Город: ' + city
+      ];
+      if (message) lines.push('Сообщение: ' + message);
+
+      var waLink = 'https://wa.me/77751835896?text=' + encodeURIComponent(lines.join('\n'));
+      window.open(waLink, '_blank', 'noopener');
+
       contactForm.hidden = true;
       formSuccess.hidden = false;
     });
