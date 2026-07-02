@@ -424,6 +424,7 @@ img, svg { display: block; max-width: 100%; }
 }
 .form-textarea { font: 400 14px/1.6 'Inter', sans-serif; resize: none; }
 .form-submit { align-self: flex-start; letter-spacing: 0.08em; padding: 16px 32px; }
+.form-error { font: 400 13px/1.5 'Inter', sans-serif; color: #C0392B; }
 .form-success {
   display: flex; flex-direction: column; align-items: center; justify-content: center;
   min-height: 440px; gap: 24px; background: #F8F8F8; border-radius: 3px; text-align: center; padding: 60px;
