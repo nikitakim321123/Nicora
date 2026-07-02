@@ -169,6 +169,30 @@
     });
   }
 
+  /* ---------- product gallery ---------- */
+  Array.prototype.slice.call(document.querySelectorAll('[data-gallery]')).forEach(function (gallery) {
+    var mainImg = gallery.querySelector('[data-gallery-img]');
+    var thumbs = Array.prototype.slice.call(gallery.querySelectorAll('[data-gallery-thumb]'));
+    var prevBtn = gallery.querySelector('[data-gallery-prev]');
+    var nextBtn = gallery.querySelector('[data-gallery-next]');
+    if (!mainImg || !thumbs.length) return;
+    var index = 0;
+
+    function show(i) {
+      index = (i + thumbs.length) % thumbs.length;
+      var thumb = thumbs[index];
+      mainImg.src = thumb.getAttribute('data-src');
+      mainImg.alt = thumb.getAttribute('data-alt') || mainImg.alt;
+      thumbs.forEach(function (t, ti) { t.classList.toggle('is-active', ti === index); });
+    }
+
+    thumbs.forEach(function (t, ti) {
+      t.addEventListener('click', function () { show(ti); });
+    });
+    if (prevBtn) prevBtn.addEventListener('click', function () { show(index - 1); });
+    if (nextBtn) nextBtn.addEventListener('click', function () { show(index + 1); });
+  });
+
   /* ---------- init ---------- */
   render(location.pathname, { scroll: false });
 })();
