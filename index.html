@@ -497,7 +497,7 @@
             <div class="info-list">
               <div class="info-item">
                 <span class="info-label">Адрес</span>
-                <span class="info-value">ул. Бухар-Жырау 34, офис 201<br>Караганда, 100000</span>
+                <span class="info-value">Казахстан, город Караганда</span>
               </div>
               <div class="info-item">
                 <span class="info-label">Телефон</span>
@@ -533,18 +533,20 @@
             </div>
             <div>
               <h3 class="form-success-title">Сообщение отправлено</h3>
-              <p class="form-success-text">Мы свяжемся с вами в течение одного рабочего дня.</p>
+              <p class="form-success-text">Мы свяжемся с вами в течение 15 минут.</p>
             </div>
           </div>
 
           <form class="contact-form" id="contactForm">
-            <div class="form-header">
-              <span class="eyebrow eyebrow-faint">Напишите нам</span>
-              <h2 class="form-title">Вопрос, заказ или<br>обратная связь</h2>
+            <div class="form-header form-header--cta">
+              <div class="form-header-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+              </div>
+              <h2 class="form-title">Оставьте заявку, менеджер с вами свяжется</h2>
             </div>
             <input class="form-input" type="text" name="name" placeholder="Ваше имя" required>
             <input class="form-input" type="tel" name="phone" placeholder="+7 (XXX) XXX-XX-XX" required>
-            <input class="form-input" type="email" name="email" placeholder="Email" required>
+            <input class="form-input" type="text" name="city" placeholder="Город" required>
             <textarea class="form-input form-textarea" name="message" rows="5" placeholder="Ваше сообщение"></textarea>
             <button type="submit" class="btn btn-dark form-submit">Отправить →</button>
           </form>
